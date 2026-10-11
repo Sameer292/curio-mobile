@@ -55,6 +55,16 @@
 		"@types/react": "~19.2.2",
 		"typescript": "~6.0.3"
 	},
+	"expo": {
+		"doctor": {
+			"reactNativeDirectoryCheck": {
+				"exclude": [
+					"react-native-nitro-fetch"
+				],
+				"listUnknownPackages": false
+			}
+		}
+	},
 	"scripts": {
 		"start": "expo start",
 		"reset-project": "node ./scripts/reset-project.js",

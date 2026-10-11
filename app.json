@@ -32,7 +32,12 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "react-native-nitro-fetch",
+      "expo-secure-store",
+      "@react-native-vector-icons/feather",
+      "expo-build-properties",
+      "expo-image"
     ],
     "experiments": {
       "typedRoutes": true,
